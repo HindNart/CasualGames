@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/an_game"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/an_game"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestSudoku"
+        tools:targetApi="31">
+        <activity
+            android:name=".duong_PageClickActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WinSudoku"
+            android:exported="false" />
+        <activity
+            android:name=".SudokuMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Sudoku"
+            android:exported="false" />
+        <activity
+            android:name=".FlipCard"
+            android:exported="false" />
+        <activity
+            android:name=".menu_level_FlipCard"
+            android:exported="false" />
+        <activity
+            android:name=".menu_FlipCard"
+            android:exported="false" />
+        <activity
+            android:name=".menu_tictactoe"
+            android:exported="false" />
+        <activity
+            android:name=".tictactoe"
+            android:exported="false" />
+        <activity
+            android:name=".trong_tutorialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".trong_viewAddQuesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".trong_viewPlayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".trong_mainActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Menu"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

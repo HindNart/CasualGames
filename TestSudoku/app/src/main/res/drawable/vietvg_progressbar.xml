@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Nền của ProgressBar -->
+    <item android:id="@android:id/background">
+        <shape>
+            <stroke android:width="3dp" android:color="#fba214"/>
+            <corners android:radius="8dp" />
+            <solid android:color="#b87333" /> <!-- Màu nền -->
+        </shape>
+    </item>
+
+    <!-- Đệm của ProgressBar -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="8dp" />
+                <solid android:color="#ffffff" /> <!-- Màu đệm -->
+            </shape>
+        </clip>
+    </item>
+
+    <!-- Màu của thanh tiến trình (fill) -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <stroke android:width="3dp" android:color="#fba214"/>
+                <corners android:radius="8dp" />
+                <solid android:color="#ffeac1" /> <!-- Màu thanh tiến trình (fill) -->
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

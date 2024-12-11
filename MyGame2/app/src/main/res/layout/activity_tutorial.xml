@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".TutorialActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="416dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/howtoplay" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="5dp"
+        android:text="Chào mừng bạn đến với &quot;Who's smart&quot;. Đây là một tựa game tổng hợp kiến thức như văn học, đời sống, toán,... Nếu muốn hoàn thành trò chơi thì bạn cũng phải có một số kiến thức nhất định. Game cũng có phần góp ý để bạn có thể đóng góp những câu hỏi hay cho chúng tôi. Cách chơi cũng rất đơn giản, bạn chỉ cần điền câu trả lời của bạn và nhấn &quot;Check&quot;, nếu muốn qua câu hỏi khác bạn có thể nhấn &quot;Next question&quot; và gợi ý là &quot;Hint&quot;. Đây chỉ là game kiểm tra kiến thức, cũng không có tính điểm nên bạn cứ thoải mái suy nghĩ nhé :D!"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBackHow"
+        android:layout_width="126dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
